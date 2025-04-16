@@ -309,7 +309,9 @@ lazy_static! {
         ("time", vec![], ValueType::Scalar),
         ("timestamp", vec![ValueType::Vector], ValueType::Vector),
         ("vector", vec![ValueType::Scalar], ValueType::Vector),
-        ("year", vec![ValueType::Vector], ValueType::Vector)
+        ("year", vec![ValueType::Vector], ValueType::Vector),
+        ("first", vec![ValueType::Vector], ValueType::Vector),
+        ("last", vec![ValueType::Vector], ValueType::Vector)
     );
 }
 
